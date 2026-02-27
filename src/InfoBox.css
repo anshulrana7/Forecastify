@@ -1,0 +1,30 @@
+/* .InfoBox {
+    text-align: center;
+}
+
+.cardContainer
+{
+    display: flex;
+    justify-content: center;
+} */
+
+.InfoBox {
+  text-align: center;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* MUI card styling */
+.MuiCard-root {
+  border-radius: 20px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3) !important;
+  overflow: hidden;
+  transition: 0.4s !important;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-10px);
+}

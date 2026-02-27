@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, rgb(220, 229, 244));
+}
+
+/* Center full app */
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main container */
+.appContainer {
+  text-align: center;
+  color: white;
+}
+
+/* Title */
+.appTitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
